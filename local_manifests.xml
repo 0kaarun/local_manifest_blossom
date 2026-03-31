@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Remotes -->
+  <remote name="HaiKito" fetch="https://github.com/HaiKito18" />
+  <remote name="okaarun" fetch="https://github.com/0kaarun" />
+
+  <!-- Device Trees -->
+  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="okaarun" revision="A16-QP2" />
+
+  <!-- SELinux policies -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="okaarun" revision="lineage-23.2" />
+
+  <!-- Hardware Supports -->
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="okaarun" revision="lineage-23.2" />
+
+  <!-- kernel tree -->
+  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="HaiKito" revision="Asuna">
+    <linkfile src="headers" dest="kernel/xiaomi/blossom" />
+  </project>
+
+  <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="okaarun" revision="A16-QP2" />
+
+  <!-- MiuiCamera -->
+  <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="okaarun" revision="main" />
+  
+  <!-- FmRadio -->
+<!--  <project path="packages/apps/RevampedFMRadio" name=" android_packages_apps_RevampedFMRadio"remote="okaarun" revision="lineage-23.0" /> -->
+
+  <!-- ViaBrowser -->
+  <project path="packages/apps/ViaBrowser" name="ViaBrowser" remote="HaiKito" revision="main" />
+
+</manifest>
