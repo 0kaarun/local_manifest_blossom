@@ -26,7 +26,7 @@
   <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="okaarun" revision="main" />
   
   <!-- FmRadio -->
-<!--  <project path="packages/apps/RevampedFMRadio" name=" android_packages_apps_RevampedFMRadio"remote="okaarun" revision="lineage-23.0" /> -->
+  <project path="packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio "remote="okaarun" revision="lineage-23.0" /> 
 
   <!-- ViaBrowser -->
   <project path="packages/apps/ViaBrowser" name="ViaBrowser" remote="HaiKito" revision="main" />
