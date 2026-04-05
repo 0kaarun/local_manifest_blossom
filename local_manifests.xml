@@ -3,7 +3,7 @@
   
   <!-- Remotes -->
   <remote name="HaiKito" fetch="https://github.com/HaiKito18" />
-	<remote name="zy" fetch="https://github.com/zyexro" />
+  <remote name="zy" fetch="https://github.com/zyexro" />
   <remote name="okaarun" fetch="https://github.com/0kaarun" />
 
   <!-- Device Trees -->
@@ -19,7 +19,8 @@
   <project path="device/xiaomi/blossom-kernel" name="android_device_xiaomi_blossom-kernel" remote="zy" revision="main" >
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>
-
+  <!-- Dolby -->
+	<project path="hardware/dolby" name="hardware_dolby" remote="okaarun" revision="sony-1.5" /> 
   <!-- Vendor Trees -->
   <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="okaarun" revision="A16-QP2" />
 
